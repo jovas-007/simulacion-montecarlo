@@ -1,0 +1,24 @@
+{
+  "precio_venta": 70000,
+  "costos_fijos": {
+    "administracion": 16000000,
+    "marketing": 8000000
+  },
+  "distribuciones": {
+    "mano_obra": {
+      "min": 10000,
+      "moda": 15000,
+      "max": 22000
+    },
+    "componentes": {
+      "min": 25000,
+      "moda": 30000,
+      "max": 35000
+    },
+    "demanda": {
+      "min": 9000,
+      "moda": 20000,
+      "max": 28500
+    }
+  }
+}
