@@ -1,0 +1,19 @@
+REPORTE DE SIMULACIÓN MONTE CARLO
+================================
+Iteraciones: 10000
+
+Resultados:
+  Utilidad mínima: -236,514,399.54
+  Utilidad máxima: 604,224,399.19
+  Utilidad media esperada: 111,660,628.24
+
+Supuestos:
+  Precio de venta por unidad: 70,000.00
+  Coste administrativo: 160,000,000.00
+  Presupuesto de publicidad: 80,000,000.00
+  Coste de mano de obra: Discreta[(10,000.00, p=0.10), (13,000.00, p=0.30), (16,000.00, p=0.30), (19,000.00, p=0.20), (22,000.00, p=0.10)]
+  Coste de componentes: Uniforme(min=25,000.00, max=35,000.00)
+  Demanda anual: Normal(media=14,500.00, desv=4,000.00, min=0.00)
+
+Fuente de parámetros:
+  Archivo: data/parametros_ejemplo.json

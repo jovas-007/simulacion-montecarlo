@@ -1,0 +1,25 @@
+{
+  "precio_venta": 70000,
+  "costos_fijos": {
+    "administracion": 160000000,
+    "marketing": 80000000
+  },
+  "distribuciones": {
+    "mano_obra": {
+      "tipo": "discreta",
+      "valores": [10000, 13000, 16000, 19000, 22000],
+      "probabilidades": [0.10, 0.30, 0.30, 0.20, 0.10]
+    },
+    "componentes": {
+      "tipo": "uniforme",
+      "min": 25000,
+      "max": 35000
+    },
+    "demanda": {
+      "tipo": "normal",
+      "media": 14500,
+      "desviacion": 4000,
+      "min": 0
+    }
+  }
+}
